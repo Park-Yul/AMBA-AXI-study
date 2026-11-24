@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_uart_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_uart" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13417fs"></ZoomStartTime>
+      <ZoomEndTime time="382918fs"></ZoomEndTime>
+      <Cursor1Time time="75000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="101"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject type="divider" fp_name="divider15">
+      <obj_property name="label">tb signal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/i_tx_data" type="array">
+      <obj_property name="ElementShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/i_tx_start" type="logic">
+      <obj_property name="ElementShortName">i_tx_start</obj_property>
+      <obj_property name="ObjectShortName">i_tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/o_tx_busy" type="logic">
+      <obj_property name="ElementShortName">o_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">o_tx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/o_tx_done" type="logic">
+      <obj_property name="ElementShortName">o_tx_done</obj_property>
+      <obj_property name="ObjectShortName">o_tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/o_tx" type="logic">
+      <obj_property name="ElementShortName">o_tx</obj_property>
+      <obj_property name="ObjectShortName">o_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/o_rx_data" type="array">
+      <obj_property name="ElementShortName">o_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/o_rx_done" type="logic">
+      <obj_property name="ElementShortName">o_rx_done</obj_property>
+      <obj_property name="ObjectShortName">o_rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/i_rx" type="logic">
+      <obj_property name="ElementShortName">i_rx</obj_property>
+      <obj_property name="ObjectShortName">i_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/w_loop" type="logic">
+      <obj_property name="ElementShortName">w_loop</obj_property>
+      <obj_property name="ObjectShortName">w_loop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/uart_data" type="array">
+      <obj_property name="ElementShortName">uart_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider16">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/i_tx_data" type="array">
+      <obj_property name="ElementShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/i_tx_start" type="logic">
+      <obj_property name="ElementShortName">i_tx_start</obj_property>
+      <obj_property name="ObjectShortName">i_tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/o_tx_busy" type="logic">
+      <obj_property name="ElementShortName">o_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">o_tx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/o_tx_done" type="logic">
+      <obj_property name="ElementShortName">o_tx_done</obj_property>
+      <obj_property name="ObjectShortName">o_tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/o_tx" type="logic">
+      <obj_property name="ElementShortName">o_tx</obj_property>
+      <obj_property name="ObjectShortName">o_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/o_rx_data" type="array">
+      <obj_property name="ElementShortName">o_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/o_rx_done" type="logic">
+      <obj_property name="ElementShortName">o_rx_done</obj_property>
+      <obj_property name="ObjectShortName">o_rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/i_rx" type="logic">
+      <obj_property name="ElementShortName">i_rx</obj_property>
+      <obj_property name="ObjectShortName">i_rx</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider29">
+      <obj_property name="label">U_UART_TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/i_tx_data" type="array">
+      <obj_property name="ElementShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/i_tx_start" type="logic">
+      <obj_property name="ElementShortName">i_tx_start</obj_property>
+      <obj_property name="ObjectShortName">i_tx_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/o_tx_busy" type="logic">
+      <obj_property name="ElementShortName">o_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">o_tx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/o_tx_done" type="logic">
+      <obj_property name="ElementShortName">o_tx_done</obj_property>
+      <obj_property name="ObjectShortName">o_tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/o_tx" type="logic">
+      <obj_property name="ElementShortName">o_tx</obj_property>
+      <obj_property name="ObjectShortName">o_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_tx" type="logic">
+      <obj_property name="ElementShortName">r_tx</obj_property>
+      <obj_property name="ObjectShortName">r_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_tx_busy" type="logic">
+      <obj_property name="ElementShortName">r_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">r_tx_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_tx_done" type="logic">
+      <obj_property name="ElementShortName">r_tx_done</obj_property>
+      <obj_property name="ObjectShortName">r_tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_state" type="array">
+      <obj_property name="ElementShortName">r_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_state[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_clk_cnt" type="array">
+      <obj_property name="ElementShortName">r_clk_cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">r_clk_cnt[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_bit_idx" type="array">
+      <obj_property name="ElementShortName">r_bit_idx[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_idx[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_TX/r_tx_data" type="array">
+      <obj_property name="ElementShortName">r_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_tx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider30">
+      <obj_property name="label">U_UART_RX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/o_rx_data" type="array">
+      <obj_property name="ElementShortName">o_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/o_rx_done" type="logic">
+      <obj_property name="ElementShortName">o_rx_done</obj_property>
+      <obj_property name="ObjectShortName">o_rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/i_rx" type="logic">
+      <obj_property name="ElementShortName">i_rx</obj_property>
+      <obj_property name="ObjectShortName">i_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_rx_z" type="logic">
+      <obj_property name="ElementShortName">r_rx_z</obj_property>
+      <obj_property name="ObjectShortName">r_rx_z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_rx_zz" type="logic">
+      <obj_property name="ElementShortName">r_rx_zz</obj_property>
+      <obj_property name="ObjectShortName">r_rx_zz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_rx_done" type="logic">
+      <obj_property name="ElementShortName">r_rx_done</obj_property>
+      <obj_property name="ObjectShortName">r_rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_state" type="array">
+      <obj_property name="ElementShortName">r_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r_state[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_clk_cnt" type="array">
+      <obj_property name="ElementShortName">r_clk_cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">r_clk_cnt[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_bit_idx" type="array">
+      <obj_property name="ElementShortName">r_bit_idx[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_idx[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_uart/DUT/U_UART_RX/r_rx_data" type="array">
+      <obj_property name="ElementShortName">r_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_rx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
