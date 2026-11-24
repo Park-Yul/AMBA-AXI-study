@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Nov 24 15:57:19 2026
-# Process ID: 27932
+# Start of session at: Tue Nov 24 19:35:59 2026
+# Process ID: 40956
 # Current directory: D:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.runs/synth_1
 # Command line: vivado.exe -log uart_design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_design_1_wrapper.tcl
 # Log file: D:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.runs/synth_1/uart_design_1_wrapper.vds
@@ -24,9 +24,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 24960
+INFO: [Synth 8-7075] Helper process launched with PID 38192
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1102.750 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1085.043 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'uart_design_1_wrapper' [d:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.gen/sources_1/bd/uart_design_1/hdl/uart_design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
@@ -2260,20 +2260,20 @@ INFO: [Synth 8-6155] done synthesizing module 'uart_design_1_uart_0_0' (150#1) [
 INFO: [Synth 8-6155] done synthesizing module 'uart_design_1' (151#1) [d:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.gen/sources_1/bd/uart_design_1/synth/uart_design_1.v:1331]
 INFO: [Synth 8-6155] done synthesizing module 'uart_design_1_wrapper' (152#1) [d:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.gen/sources_1/bd/uart_design_1/hdl/uart_design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:34 ; elapsed = 00:00:41 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.451 . Memory (MB): peak = 1525.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.376 . Memory (MB): peak = 1531.223 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 971 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -2332,7 +2332,7 @@ Parsing XDC File [d:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.gen/sources
 Finished Parsing XDC File [d:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.gen/sources_1/bd/uart_design_1/ip/uart_design_1_microblaze_0_axi_intc_0/uart_design_1_microblaze_0_axi_intc_0_clocks.xdc] for cell 'uart_design_1_i/microblaze_0_axi_intc/U0'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1525.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1531.223 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 736 instances were transformed.
   FDC_1 => FDCE (inverted pins: C): 1 instance 
@@ -2346,16 +2346,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.164 . Memory (MB): peak = 1525.066 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1531.223 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Constraint Validation : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -2395,7 +2395,7 @@ Applied set_property KEEP = true for sys_clock. (constraint file  auto generated
 Applied set_property KEEP = true for usb_uart_rxd. (constraint file  auto generated constraint).
 Applied set_property KEEP = true for uart_design_1_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/TX. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized0'
@@ -2467,7 +2467,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encodin
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'r_state_reg' using encoding 'sequential' in module 'uart_rx'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:54 ; elapsed = 00:01:02 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:52 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -2560,7 +2560,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:20 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:03 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -2583,13 +2583,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'uart_design_1_i/microblaze_0/U0/Reset' to pin 'uart_design_1_i/rst_clk_wiz_1_100M/U0/FDRE_inst/Q'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:26 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:31 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Timing Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:12 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -2609,7 +2609,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:24 ; elapsed = 00:01:34 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Technology Mapping : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -2627,37 +2627,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:26 ; elapsed = 00:01:37 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:26 ; elapsed = 00:01:37 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -2734,18 +2734,18 @@ Report Cell Usage:
 |32    |OBUF       |     2|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 1531.223 ; gain = 446.180
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:01:31 . Memory (MB): peak = 1525.066 ; gain = 422.316
-Synthesis Optimization Complete : Time (s): cpu = 00:01:27 ; elapsed = 00:01:38 . Memory (MB): peak = 1525.066 ; gain = 422.316
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:01:11 . Memory (MB): peak = 1531.223 ; gain = 446.180
+Synthesis Optimization Complete : Time (s): cpu = 00:01:11 ; elapsed = 00:01:18 . Memory (MB): peak = 1531.223 ; gain = 446.180
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 1525.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.167 . Memory (MB): peak = 1531.223 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 841 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1525.066 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1531.223 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 508 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 38 instances
@@ -2763,7 +2763,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 493 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:34 ; elapsed = 00:01:47 . Memory (MB): peak = 1525.066 ; gain = 422.316
+synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:35 . Memory (MB): peak = 1531.223 ; gain = 446.180
 INFO: [Common 17-1381] The checkpoint 'D:/github/AMBA-AXI-study/CH4_AXI_UART/CH4_AXI_UART.runs/synth_1/uart_design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file uart_design_1_wrapper_utilization_synth.rpt -pb uart_design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Nov 24 15:59:14 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 24 19:37:51 2026...
