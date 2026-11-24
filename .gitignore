@@ -12,5 +12,4 @@
 
 #etc
 *.srcs/
-vitis_workspace/
-vitis_workspace_2/
+vitis_workspace*/
